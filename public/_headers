@@ -1,0 +1,13 @@
+/videos/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=3600
+  X-Content-Type-Options: nosniff
+
+/manifest.json
+  Cache-Control: no-cache
+
+/health.json
+  Cache-Control: no-cache
+
+/
+  Cache-Control: no-cache

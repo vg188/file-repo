@@ -1,0 +1,239 @@
+{
+  "version": "0.2.2",
+  "updated": "2026-11-20",
+  "baseUrl": "https://repo.yourba.top",
+  "originalBytesPreserved": true,
+  "files": [
+    {
+      "id": "marathon-recap",
+      "title": "首都高校马拉松嘉年华 · 赛事回顾",
+      "group": "events",
+      "file": "videos/events/marathon-recap.mp4",
+      "src": "https://repo.yourba.top/videos/events/marathon-recap.mp4",
+      "bytes": 23916562,
+      "sha256": "218744a394f8a7506ba95616f73b19fe54e09b2f2711c59cb272dba257b9e7e8",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 1280,
+        "height": 720,
+        "frameRate": "30/1",
+        "duration": 100.981995,
+        "codec": "h264",
+        "codecTag": "avc1",
+        "pixelFormat": "yuv420p",
+        "frames": 3029
+      },
+      "package": "marathon"
+    },
+    {
+      "id": "champion-talk",
+      "title": "冠军面对面 · 王丽萍交流回顾",
+      "group": "events",
+      "file": "videos/events/champion-talk.mp4",
+      "src": "https://repo.yourba.top/videos/events/champion-talk.mp4",
+      "bytes": 22797562,
+      "sha256": "3d6bf071c3a65f5a885342c5951fc883e992b993d4aa45de94964a410bbdc512",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 960,
+        "height": 640,
+        "frameRate": "27/1",
+        "duration": 161.148148,
+        "codec": "h264",
+        "codecTag": "avc1",
+        "pixelFormat": "yuv420p",
+        "frames": 4351
+      },
+      "package": "champion"
+    },
+    {
+      "id": "champion-group",
+      "title": "冠军面对面 · 师生合影",
+      "group": "events",
+      "file": "videos/events/champion-group.mp4",
+      "src": "https://repo.yourba.top/videos/events/champion-group.mp4",
+      "bytes": 2108822,
+      "sha256": "7276590a65bc4e480a7803a3a14a37802fb3019ec4111ae0777baf166a06958f",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 1280,
+        "height": 720,
+        "frameRate": "30/1",
+        "duration": 10.833333,
+        "codec": "hevc",
+        "codecTag": "hvc1",
+        "pixelFormat": "yuv420p",
+        "frames": 325
+      },
+      "package": "champion"
+    },
+    {
+      "id": "sprint50-standard",
+      "title": "50m跑标准动作",
+      "group": "teaching",
+      "file": "videos/teaching/sprint50-standard.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/sprint50-standard.mp4",
+      "bytes": 4673112,
+      "sha256": "7aff58080cdf5bae583cdac7ba696297887906bdc2ae9a51c1d45845ae4991f6",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 720,
+        "height": 1280,
+        "frameRate": "30/1",
+        "duration": 44.536009,
+        "codec": "hevc",
+        "codecTag": "hvc1",
+        "pixelFormat": "yuv420p",
+        "frames": 1336
+      },
+      "itemKey": "run50"
+    },
+    {
+      "id": "sprint50-practice",
+      "title": "50m跑的练习动作",
+      "group": "teaching",
+      "file": "videos/teaching/sprint50-practice.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/sprint50-practice.mp4",
+      "bytes": 3846255,
+      "sha256": "2493a065366da1c3f5ae03893abc5cb4eaf51041c4eaca49c495d1cd2036e2c7",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 720,
+        "height": 1280,
+        "frameRate": "30/1",
+        "duration": 36.571995,
+        "codec": "hevc",
+        "codecTag": "hvc1",
+        "pixelFormat": "yuv420p",
+        "frames": 1097
+      },
+      "itemKey": "run50"
+    },
+    {
+      "id": "run800-tips",
+      "title": "800m注意事项",
+      "group": "teaching",
+      "file": "videos/teaching/run800-tips.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/run800-tips.mp4",
+      "bytes": 5368899,
+      "sha256": "18edf0b7b77fbbf87b2201c09fbf927e1cac9bacc2dcb02c72504d7a1b1d1e47",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 720,
+        "height": 1280,
+        "frameRate": "30/1",
+        "duration": 52.269002,
+        "codec": "hevc",
+        "codecTag": "hvc1",
+        "pixelFormat": "yuv420p",
+        "frames": 1568
+      },
+      "itemKey": "run800"
+    },
+    {
+      "id": "standing-jump-standard",
+      "title": "立定跳远标准动作",
+      "group": "teaching",
+      "file": "videos/teaching/standing-jump-standard.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/standing-jump-standard.mp4",
+      "bytes": 2175970,
+      "sha256": "8fbde29f1975d73a33fdb2f35faf2899830a49dc4b619ff510427d1aae2b2081",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 720,
+        "height": 1280,
+        "frameRate": "30/1",
+        "duration": 20.851995,
+        "codec": "hevc",
+        "codecTag": "hvc1",
+        "pixelFormat": "yuv420p",
+        "frames": 625
+      },
+      "itemKey": "longJump"
+    },
+    {
+      "id": "standing-jump-practice",
+      "title": "立定跳远的练习动作",
+      "group": "teaching",
+      "file": "videos/teaching/standing-jump-practice.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/standing-jump-practice.mp4",
+      "bytes": 7723330,
+      "sha256": "e02b843dea0b009aab9ead0dd3c32b354b9c8e1abe3a366b8dca0dd62517988a",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 720,
+        "height": 1280,
+        "frameRate": "30/1",
+        "duration": 64.666667,
+        "codec": "hevc",
+        "codecTag": "hvc1",
+        "pixelFormat": "yuv420p",
+        "frames": 1940
+      },
+      "itemKey": "longJump"
+    },
+    {
+      "id": "situp-standard",
+      "title": "仰卧起坐标准动作",
+      "group": "teaching",
+      "file": "videos/teaching/situp-standard.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/situp-standard.mp4",
+      "bytes": 3386827,
+      "sha256": "d7b3bb520e43e35d5f898165940c8948acad990e70205d3a00750854f9a9ac86",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 720,
+        "height": 1280,
+        "frameRate": "30/1",
+        "duration": 32.369002,
+        "codec": "hevc",
+        "codecTag": "hvc1",
+        "pixelFormat": "yuv420p",
+        "frames": 971
+      },
+      "itemKey": "sitUp"
+    },
+    {
+      "id": "pullup-standard",
+      "title": "引体向上的标准动作",
+      "group": "teaching",
+      "file": "videos/teaching/pullup-standard.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/pullup-standard.mp4",
+      "bytes": 1174006,
+      "sha256": "0580b212642be1e07321cd2ac1639c452dff87960d1be711fd41bd3329e95f7c",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 720,
+        "height": 1264,
+        "frameRate": "30/1",
+        "duration": 11.355011,
+        "codec": "hevc",
+        "codecTag": "hvc1",
+        "pixelFormat": "yuv420p",
+        "frames": 340
+      },
+      "itemKey": "pullUp"
+    },
+    {
+      "id": "pullup-practice",
+      "title": "引体向上的练习动作",
+      "group": "teaching",
+      "file": "videos/teaching/pullup-practice.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/pullup-practice.mp4",
+      "bytes": 4409188,
+      "sha256": "a691ce4fa66641a5b6cb9839bf1739c48693b4bb64a91c95157129cd1de20bef",
+      "source": "提供的视频原文件",
+      "quality": {
+        "width": 720,
+        "height": 1280,
+        "frameRate": "30/1",
+        "duration": 42.120998,
+        "codec": "hevc",
+        "codecTag": "hvc1",
+        "pixelFormat": "yuv420p",
+        "frames": 1263
+      },
+      "itemKey": "pullUp"
+    }
+  ]
+}
