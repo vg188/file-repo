@@ -1,6 +1,10 @@
 {
   "version": "0.2.2",
-  "files": 11,
-  "totalVideoBytes": 81580533,
-  "manifestSha256": "a8cd759093fcf30b37994a5a99bcf93896ac4992049c000e1d2bf83fb59b28da"
+  "files": 12,
+  "totalVideoBytes": 151173640,
+  "totalVideoBytesScope": "source-original-files",
+  "totalSourceBytes": 151173640,
+  "totalPublishedMediaBytes": 153378379,
+  "publicMediaFiles": 36,
+  "manifestSha256": "80fa08da447b7f820be8a9c7ab87e9dca0912a88afb178ec1df1b2cd29c397bf"
 }
