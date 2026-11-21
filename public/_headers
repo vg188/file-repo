@@ -1,5 +1,6 @@
 /videos/*
   Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: Content-Length, Content-Range, Accept-Ranges, ETag
   Cache-Control: public, max-age=3600
   X-Content-Type-Options: nosniff
 
@@ -11,3 +12,9 @@
 
 /
   Cache-Control: no-cache
+
+/videos/events/sports54-recap/index.m3u8
+  Content-Type: application/vnd.apple.mpegurl
+
+/videos/events/sports54-recap/*.ts
+  Content-Type: video/mp2t

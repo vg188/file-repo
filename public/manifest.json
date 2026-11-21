@@ -1,18 +1,26 @@
 {
+  "schemaVersion": 2,
   "version": "0.2.2",
   "updated": "2026-11-20",
   "baseUrl": "https://repo.yourba.top",
   "originalBytesPreserved": true,
+  "preservation": "Original MP4 files are retained verbatim in the repository. HLS delivery remuxes encoded H.264/AAC streams without encoding; source SHA-256 identifies the original MP4, while playlist and part SHA-256 values identify delivered containers.",
+  "totalSourceBytes": 151173640,
+  "totalPublishedMediaBytes": 153378379,
+  "publicMediaFiles": 36,
   "files": [
     {
       "id": "marathon-recap",
       "title": "首都高校马拉松嘉年华 · 赛事回顾",
       "group": "events",
       "file": "videos/events/marathon-recap.mp4",
-      "src": "https://repo.yourba.top/videos/events/marathon-recap.mp4",
+      "src": "https://repo.yourba.top/videos/events/marathon-recap.mp4?v=218744a394f8a750",
       "bytes": 23916562,
       "sha256": "218744a394f8a7506ba95616f73b19fe54e09b2f2711c59cb272dba257b9e7e8",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/events/marathon-recap.mp4",
       "source": "提供的视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 1280,
         "height": 720,
@@ -20,20 +28,31 @@
         "duration": 100.981995,
         "codec": "h264",
         "codecTag": "avc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 3029
+        "frames": 3029,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 44100,
+        "audioChannels": 2
       },
-      "package": "marathon"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "package": "marathon",
+      "publishedMediaBytes": 23916562
     },
     {
       "id": "champion-talk",
       "title": "冠军面对面 · 王丽萍交流回顾",
       "group": "events",
       "file": "videos/events/champion-talk.mp4",
-      "src": "https://repo.yourba.top/videos/events/champion-talk.mp4",
+      "src": "https://repo.yourba.top/videos/events/champion-talk.mp4?v=3d6bf071c3a65f5a",
       "bytes": 22797562,
       "sha256": "3d6bf071c3a65f5a885342c5951fc883e992b993d4aa45de94964a410bbdc512",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/events/champion-talk.mp4",
       "source": "提供的视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 960,
         "height": 640,
@@ -41,20 +60,31 @@
         "duration": 161.148148,
         "codec": "h264",
         "codecTag": "avc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 4351
+        "frames": 4351,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 44100,
+        "audioChannels": 2
       },
-      "package": "champion"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "package": "champion",
+      "publishedMediaBytes": 22797562
     },
     {
       "id": "champion-group",
       "title": "冠军面对面 · 师生合影",
       "group": "events",
       "file": "videos/events/champion-group.mp4",
-      "src": "https://repo.yourba.top/videos/events/champion-group.mp4",
+      "src": "https://repo.yourba.top/videos/events/champion-group.mp4?v=7276590a65bc4e48",
       "bytes": 2108822,
       "sha256": "7276590a65bc4e480a7803a3a14a37802fb3019ec4111ae0777baf166a06958f",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/events/champion-group.mp4",
       "source": "提供的视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 1280,
         "height": 720,
@@ -62,20 +92,31 @@
         "duration": 10.833333,
         "codec": "hevc",
         "codecTag": "hvc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 325
+        "frames": 325,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 48000,
+        "audioChannels": 1
       },
-      "package": "champion"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "package": "champion",
+      "publishedMediaBytes": 2108822
     },
     {
       "id": "sprint50-standard",
-      "title": "50m跑标准动作",
+      "title": "50米跑标准动作",
       "group": "teaching",
       "file": "videos/teaching/sprint50-standard.mp4",
-      "src": "https://repo.yourba.top/videos/teaching/sprint50-standard.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/sprint50-standard.mp4?v=7aff58080cdf5bae",
       "bytes": 4673112,
       "sha256": "7aff58080cdf5bae583cdac7ba696297887906bdc2ae9a51c1d45845ae4991f6",
-      "source": "提供的视频原文件",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/teaching/sprint50-standard.mp4",
+      "source": "教学视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 720,
         "height": 1280,
@@ -83,20 +124,31 @@
         "duration": 44.536009,
         "codec": "hevc",
         "codecTag": "hvc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 1336
+        "frames": 1336,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 44100,
+        "audioChannels": 2
       },
-      "itemKey": "run50"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "itemKey": "run50",
+      "publishedMediaBytes": 4673112
     },
     {
       "id": "sprint50-practice",
-      "title": "50m跑的练习动作",
+      "title": "50米跑练习动作",
       "group": "teaching",
       "file": "videos/teaching/sprint50-practice.mp4",
-      "src": "https://repo.yourba.top/videos/teaching/sprint50-practice.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/sprint50-practice.mp4?v=2493a065366da1c3",
       "bytes": 3846255,
       "sha256": "2493a065366da1c3f5ae03893abc5cb4eaf51041c4eaca49c495d1cd2036e2c7",
-      "source": "提供的视频原文件",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/teaching/sprint50-practice.mp4",
+      "source": "教学视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 720,
         "height": 1280,
@@ -104,20 +156,31 @@
         "duration": 36.571995,
         "codec": "hevc",
         "codecTag": "hvc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 1097
+        "frames": 1097,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 44100,
+        "audioChannels": 2
       },
-      "itemKey": "run50"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "itemKey": "run50",
+      "publishedMediaBytes": 3846255
     },
     {
       "id": "run800-tips",
-      "title": "800m注意事项",
+      "title": "800米跑注意事项",
       "group": "teaching",
       "file": "videos/teaching/run800-tips.mp4",
-      "src": "https://repo.yourba.top/videos/teaching/run800-tips.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/run800-tips.mp4?v=18edf0b7b77fbbf8",
       "bytes": 5368899,
       "sha256": "18edf0b7b77fbbf87b2201c09fbf927e1cac9bacc2dcb02c72504d7a1b1d1e47",
-      "source": "提供的视频原文件",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/teaching/run800-tips.mp4",
+      "source": "教学视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 720,
         "height": 1280,
@@ -125,20 +188,31 @@
         "duration": 52.269002,
         "codec": "hevc",
         "codecTag": "hvc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 1568
+        "frames": 1568,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 44100,
+        "audioChannels": 2
       },
-      "itemKey": "run800"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "itemKey": "run800",
+      "publishedMediaBytes": 5368899
     },
     {
       "id": "standing-jump-standard",
       "title": "立定跳远标准动作",
       "group": "teaching",
       "file": "videos/teaching/standing-jump-standard.mp4",
-      "src": "https://repo.yourba.top/videos/teaching/standing-jump-standard.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/standing-jump-standard.mp4?v=8fbde29f1975d73a",
       "bytes": 2175970,
       "sha256": "8fbde29f1975d73a33fdb2f35faf2899830a49dc4b619ff510427d1aae2b2081",
-      "source": "提供的视频原文件",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/teaching/standing-jump-standard.mp4",
+      "source": "教学视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 720,
         "height": 1280,
@@ -146,20 +220,31 @@
         "duration": 20.851995,
         "codec": "hevc",
         "codecTag": "hvc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 625
+        "frames": 625,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 44100,
+        "audioChannels": 2
       },
-      "itemKey": "longJump"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "itemKey": "longJump",
+      "publishedMediaBytes": 2175970
     },
     {
       "id": "standing-jump-practice",
-      "title": "立定跳远的练习动作",
+      "title": "立定跳远练习动作",
       "group": "teaching",
       "file": "videos/teaching/standing-jump-practice.mp4",
-      "src": "https://repo.yourba.top/videos/teaching/standing-jump-practice.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/standing-jump-practice.mp4?v=e02b843dea0b009a",
       "bytes": 7723330,
       "sha256": "e02b843dea0b009aab9ead0dd3c32b354b9c8e1abe3a366b8dca0dd62517988a",
-      "source": "提供的视频原文件",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/teaching/standing-jump-practice.mp4",
+      "source": "教学视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 720,
         "height": 1280,
@@ -167,20 +252,31 @@
         "duration": 64.666667,
         "codec": "hevc",
         "codecTag": "hvc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 1940
+        "frames": 1940,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 44100,
+        "audioChannels": 1
       },
-      "itemKey": "longJump"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "itemKey": "longJump",
+      "publishedMediaBytes": 7723330
     },
     {
       "id": "situp-standard",
       "title": "仰卧起坐标准动作",
       "group": "teaching",
       "file": "videos/teaching/situp-standard.mp4",
-      "src": "https://repo.yourba.top/videos/teaching/situp-standard.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/situp-standard.mp4?v=d7b3bb520e43e35d",
       "bytes": 3386827,
       "sha256": "d7b3bb520e43e35d5f898165940c8948acad990e70205d3a00750854f9a9ac86",
-      "source": "提供的视频原文件",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/teaching/situp-standard.mp4",
+      "source": "教学视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 720,
         "height": 1280,
@@ -188,20 +284,31 @@
         "duration": 32.369002,
         "codec": "hevc",
         "codecTag": "hvc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 971
+        "frames": 971,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 44100,
+        "audioChannels": 2
       },
-      "itemKey": "sitUp"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "itemKey": "sitUp",
+      "publishedMediaBytes": 3386827
     },
     {
       "id": "pullup-standard",
-      "title": "引体向上的标准动作",
+      "title": "引体向上标准动作",
       "group": "teaching",
       "file": "videos/teaching/pullup-standard.mp4",
-      "src": "https://repo.yourba.top/videos/teaching/pullup-standard.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/pullup-standard.mp4?v=0580b212642be1e0",
       "bytes": 1174006,
       "sha256": "0580b212642be1e07321cd2ac1639c452dff87960d1be711fd41bd3329e95f7c",
-      "source": "提供的视频原文件",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/teaching/pullup-standard.mp4",
+      "source": "教学视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 720,
         "height": 1264,
@@ -209,20 +316,31 @@
         "duration": 11.355011,
         "codec": "hevc",
         "codecTag": "hvc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 340
+        "frames": 340,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 44100,
+        "audioChannels": 2
       },
-      "itemKey": "pullUp"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "itemKey": "pullUp",
+      "publishedMediaBytes": 1174006
     },
     {
       "id": "pullup-practice",
-      "title": "引体向上的练习动作",
+      "title": "引体向上练习动作",
       "group": "teaching",
       "file": "videos/teaching/pullup-practice.mp4",
-      "src": "https://repo.yourba.top/videos/teaching/pullup-practice.mp4",
+      "src": "https://repo.yourba.top/videos/teaching/pullup-practice.mp4?v=a691ce4fa66641a5",
       "bytes": 4409188,
       "sha256": "a691ce4fa66641a5b6cb9839bf1739c48693b4bb64a91c95157129cd1de20bef",
-      "source": "提供的视频原文件",
+      "hashScope": "source-original-file",
+      "originalFile": "public/videos/teaching/pullup-practice.mp4",
+      "source": "教学视频原文件",
+      "sourceUrl": "",
       "quality": {
         "width": 720,
         "height": 1280,
@@ -230,10 +348,248 @@
         "duration": 42.120998,
         "codec": "hevc",
         "codecTag": "hvc1",
+        "profile": "Main",
         "pixelFormat": "yuv420p",
-        "frames": 1263
+        "frames": 1263,
+        "audioCodec": "aac",
+        "audioProfile": "LC",
+        "audioSampleRate": 44100,
+        "audioChannels": 2
       },
-      "itemKey": "pullUp"
+      "delivery": "direct-mp4",
+      "sourceContainerIdentical": true,
+      "itemKey": "pullUp",
+      "publishedMediaBytes": 4409188
+    },
+    {
+      "id": "sports54-recap",
+      "title": "第54届校运会 · 赛事回顾",
+      "group": "events",
+      "file": "videos/events/sports54-recap/index.m3u8",
+      "src": "https://repo.yourba.top/videos/events/sports54-recap/index.m3u8?v=c0eb0a6bd097032a",
+      "bytes": 69593107,
+      "sha256": "c0eb0a6bd097032a6e4eea297530dc4bcf379b0ad46bf302f4a94a6d0183bfd0",
+      "hashScope": "source-original-file",
+      "originalFile": "originals/events/sports54-recap.mp4",
+      "source": "北京化工大学官方微博 · 同步发布",
+      "sourceUrl": "https://weibo.com/tv/show/1034:5291899490336854?from=old_pc_videoshow",
+      "quality": {
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "25/1",
+        "duration": 189.266009,
+        "codec": "h264",
+        "codecTag": "avc1",
+        "profile": "High",
+        "pixelFormat": "yuv420p",
+        "frames": 4730,
+        "audioCodec": "aac",
+        "audioProfile": "HE-AAC",
+        "audioSampleRate": 44100,
+        "audioChannels": 2
+      },
+      "delivery": "hls-copy",
+      "sourceContainerIdentical": false,
+      "package": "marathon",
+      "originalChannelsSource": "https://weixin.qq.com/sph/AmdpdBAybJ",
+      "parts": [
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00000.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00000.ts",
+          "bytes": 3753420,
+          "sha256": "fcfb3cfb8a79ee412c6afd42f845d3401645ade0aadc67598f1c8573cd83e054",
+          "durationSeconds": 10
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00001.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00001.ts",
+          "bytes": 2699492,
+          "sha256": "684bee35830e4f3c62f7d5b4725009fb1cd24d6e8b615dbfd2ab1f76881372db",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00002.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00002.ts",
+          "bytes": 4815620,
+          "sha256": "04b00fb560b57d29e111731236b545696dc13ca9350488d6d5f9c41db7ebd591",
+          "durationSeconds": 12
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00003.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00003.ts",
+          "bytes": 2348496,
+          "sha256": "97e68010195aa5c009b2092d68c5ff4b685216ef8d060443a5da58c2e375969f",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00004.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00004.ts",
+          "bytes": 2610380,
+          "sha256": "4f0d1f03a451ac6bae3903a7dbd4cb26d7b4ce9b9a4a751f0759188173b2d82b",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00005.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00005.ts",
+          "bytes": 5033700,
+          "sha256": "a75b5796328c03b94df9fba28e0a01461fe67862493b0e0a7eb0c9fc724277a7",
+          "durationSeconds": 12
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00006.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00006.ts",
+          "bytes": 1149620,
+          "sha256": "9c4529c3b23d035b001c80a93c79ea604f038f52cbe74723ed0dbcabff69a59e",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00007.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00007.ts",
+          "bytes": 1494224,
+          "sha256": "44eb085db79e42636e4c0b78a3de1ba60d5e6b5fee40d1cb21033e8969cb017a",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00008.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00008.ts",
+          "bytes": 4503728,
+          "sha256": "e189859087dfb36f8e66720b0959282e0eeb836cefe4e84a1c6b1ed4572e8bd1",
+          "durationSeconds": 12
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00009.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00009.ts",
+          "bytes": 2207120,
+          "sha256": "75fb7e802d1fddf3f38e34672ecee8c4e479c3a4848442278d3749a28328e654",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00010.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00010.ts",
+          "bytes": 2087928,
+          "sha256": "d9b26bb226f1ca0261804f7129fd5ce15980c7728c6f44a29d7a33dca5ba296b",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00011.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00011.ts",
+          "bytes": 3513720,
+          "sha256": "05f804d1703360b1272fea76098388853e8331a92e12098df41b799a21d977a3",
+          "durationSeconds": 12
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00012.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00012.ts",
+          "bytes": 1658160,
+          "sha256": "e701d7fa8521477cca2f79e76732cacd07580d00ee4fb9f13e7d81d00065ce18",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00013.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00013.ts",
+          "bytes": 2391360,
+          "sha256": "edb37d10e383f4e82524ffb64298f0bfbab8fd65f8d7aa50dc97c137c34d465e",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00014.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00014.ts",
+          "bytes": 3064400,
+          "sha256": "9ef6055f23dd08e03965da9f077cda8ccbfb6862b4ea7947332f27417204bf25",
+          "durationSeconds": 12
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00015.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00015.ts",
+          "bytes": 2077776,
+          "sha256": "3a31a21329a87a9ad31f97c31a527b8b9215a253d8eadf2a58694a816cb93c49",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00016.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00016.ts",
+          "bytes": 1273136,
+          "sha256": "2698782655455720fd3336748bbed29bad94d7d4492769b57d9873e89908b07d",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00017.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00017.ts",
+          "bytes": 3767332,
+          "sha256": "b22fe50e3e72ae334d7836043c13be7eb70456f5c5ebffbdd3db9debadad92de",
+          "durationSeconds": 12
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00018.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00018.ts",
+          "bytes": 2180424,
+          "sha256": "a5e569190ef7ed681aea497bd6a758aedf4ae7cbd5b315b95e524de3f5472023",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00019.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00019.ts",
+          "bytes": 3424608,
+          "sha256": "90f1fb017dc4ab09f1a5b97a17139d0612af2eb098cfd5aa34767dbe2b0ed7be",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00020.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00020.ts",
+          "bytes": 6613276,
+          "sha256": "3ea5865a65e8288c8a4448a639a55c17f7c54d386761131acca04125223ccdfe",
+          "durationSeconds": 12
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00021.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00021.ts",
+          "bytes": 3835200,
+          "sha256": "7650749e6b7c303558b01cf077e90bbb7afcd6fc60b6dc711a05d1d4cfa4533c",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00022.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00022.ts",
+          "bytes": 3490596,
+          "sha256": "824bf3eab43e1115d867ae7b4b0ee72ba8a509a4ed01359f97aabb9f66e20f66",
+          "durationSeconds": 6
+        },
+        {
+          "file": "videos/events/sports54-recap/segment-c0eb0a6bd097032a-00023.ts",
+          "src": "https://repo.yourba.top/videos/events/sports54-recap/segment-c0eb0a6bd097032a-00023.ts",
+          "bytes": 1802732,
+          "sha256": "da021e8e0c5bb9e2824cfc6815156f6bc1d27c0dabb8a721b9d8f91d6d16e986",
+          "durationSeconds": 5.2
+        }
+      ],
+      "playlist": {
+        "file": "videos/events/sports54-recap/index.m3u8",
+        "bytes": 1398,
+        "sha256": "b8fdb28b37a5db147fea178a85a7c1a7628df40bdb5a01bb8f42730fc03b8cb8",
+        "contentType": "application/vnd.apple.mpegurl"
+      },
+      "publishedMediaBytes": 71797846,
+      "playlistDuration": 189.2,
+      "bitstreamValidation": {
+        "encodedPayloadsEqual": true,
+        "decodedVideoFramesEqual": true,
+        "videoVclSha256": "f2151515ead5c99afb85994b169f21a6a76568cb12b56a52a1cf4747e70d459e",
+        "videoPayloadSha256": "f2151515ead5c99afb85994b169f21a6a76568cb12b56a52a1cf4747e70d459e",
+        "videoParameterSets": [
+          "7:ba151f4cb917cac3f45f0f91bfa5fa6defdb33b675efef00e81300054d8b37c5",
+          "8:5bf87090de20be1d0e534e787d1e87c1157bdf4a21c710d76c7077ddfb15145b",
+          "8:ad981a96457b63c598d1eb330e63ba5ad4af75f811a3a71db54cea78481128d1",
+          "8:ffa170bcabd1cfa90621af3397c6c4708c7ce4f10632fe083511deae5f25a9c6"
+        ],
+        "audioPayloadSha256": "2774296b41dc4340f0b9ed3f10b5417819f17950df893de5aceb34178835bd83",
+        "audioPackets": 4078,
+        "videoFrames": 4730,
+        "decodedVideoFrameSha256": "1c2cb21a52f4228a3650bdaec270a1a3cbbc56cbe2917f03880d62a5857dcc17",
+        "fullVideoAndAudioDecode": true,
+        "decodeErrors": 0,
+        "sourceContainerDuration": 189.266009,
+        "videoAndPlaylistDuration": 189.2
+      }
     }
   ]
 }
